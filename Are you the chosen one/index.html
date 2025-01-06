@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>The Chosen One</title>
+  <!-- Link to our CSS file -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Intro Screen -->
+  <div class="intro-screen" id="intro-screen">
+    <div class="icon-container">
+      <!-- The "icon" can be a simple text, an image, or a decorative icon -->
+      <div class="icon" id="click-icon">Are you the chosen one?</div>
+    </div>
+  </div>
+
+  <!-- Matrix Animation Screen (hidden by default) -->
+  <div class="matrix-container" id="matrix-screen">
+    <canvas id="matrix-canvas"></canvas>
+  </div>
+
+  <!-- Result Screen (hidden by default) -->
+  <div class="result-screen" id="result-screen">
+    <p id="result-message"></p>
+  </div>
+
+  <!-- Link to our JavaScript file -->
+  <script src="script.js"></script>
+</body>
+</html>
